@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/golang/protobuf/proto"
+	"github.com/gogo/protobuf/proto"
 	dpb "github.com/golang/protobuf/protoc-gen-go/descriptor"
 
 	"github.com/jhump/protoreflect/internal"

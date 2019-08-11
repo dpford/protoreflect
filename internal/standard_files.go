@@ -35,8 +35,8 @@ var StdFileAliases = map[string]string{
 	"google/protobuf/source_context.proto": "src/google/protobuf/source_context.proto",
 	"google/protobuf/type.proto":           "src/google/protobuf/type.proto",
 
-	// Other standard files (descriptor.proto and compiler/plugin.proto) are
-	// registered correctly, so we don't need rules for them here.
+	// Without this alias, the import in domainextensions.proto was breaking
+	"google/protobuf/descriptor.proto": "descriptor.proto",
 }
 
 func init() {

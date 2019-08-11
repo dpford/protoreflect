@@ -1,6 +1,7 @@
 module github.com/jhump/protoreflect
 
 require (
+	github.com/gogo/protobuf v1.2.1
 	github.com/golang/protobuf v1.3.1
 	golang.org/x/net v0.0.0-20180530234432-1e491301e022
 	golang.org/x/text v0.3.0 // indirect
